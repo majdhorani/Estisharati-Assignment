@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tech Estisharati Assignment</string>
+
+    <string name="loading">الرجاء الانتظار</string>
+    <string name="please_wait">الرجاء الانتظار</string>
+
+    <string name="hello">مرحبا</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="login_into_estisharati">Login into Estisharati</string>
+    <string name="please_login">يرجى تسجيل الدخول</string>
+    <string name="login_to_medicinemall">تسجيل الدخول</string>
+    <string name="login_and_enjoy">قم بتسجيل الدخول وتمتع باكتر من 200 منتج بكل سهولة</string>
+    <string name="create_and_enjoy">قم بإنشاء حساب وتمتع باكتر من 200 منتج بكل سهولة</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="signup">إنشاء حساب</string>
+    <string name="register">التسجيل</string>
+    <string name="create_account">حساب جديد</string>
+    <string name="create_account_as">إنشاء حساب ك:</string>
+    <string name="create_account_underline"><u>حساب جديد</u></string>
+    <string name="create_a_new_account">إمشاء حساب جديد</string>
+    <string name="continue_as_a_guest">الاستمرار كضيف</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="forgot_your_password">نسيت كلمة المرور</string>
+    <string name="we_sent_activation_code_to">لقد قمنا بإرسال رمز التأكيد إلى</string>
+    <string name="please_confirm_your_code">من فضلك قم بالتأكيد</string>
+    <string name="new_password">كلمة مرور جديدة</string>
+    <string name="confirm_new_password">إعادة كلمة المرور الجديدة</string>
+    <string name="set_your_new_password">قم بوضع كلمة مرور جديدة</string>
+    <string name="do_not_add_something_of_your_old_password">يفضل الا تحتوي على جزء من كلمة المرور القديمة</string>
+    <string name="email">البريد الالكتروني</string>
+    <string name="reset_password_underline"><u>إستعادة كلمة المرور</u></string>
+    <string name="reset_password">إستعادة كلمة المرور</string>
+
+    <string name="my_profile">حسابي الشخصي</string>
+    <string name="profile">حسابي الشخصي</string>
+    <string name="categories">التصنيفات</string>
+    <string name="favorite">المفضلة</string>
+    <string name="language">اللغة</string>
+    <string name="arabic">اللغة العربية</string>
+    <string name="english">اللغة الإنكليزية</string>
+    <string name="please_select_language">يرجى اخيار اللغة</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="info">معلومات الحساب</string>
+    <string name="phone">الهاتف</string>
+
+    <string name="policy">سياسة الخصوصية</string>
+    <string name="conditions">شروط وأحكام الاستخدام</string>
+    <string name="about">عن دوامول</string>
+    <string name="accept_conditions">بمجرد إنشاء الحساب الخاص بك فأنت توافق على</string>
+    <string name="policy_underline"><u>سياسة الخصوصية</u></string>
+    <string name="conditions_underline"><u>شروط وأحكام الاستخدام</u></string>
+    <string name="and">و</string>
+
+
+    <string name="home">Home</string>
+    <string name="skip">Skip</string>
+    <string name="view_all">View all</string>
+    <string name="share_the_app">Share the app</string>
+    <string name="contact_with_us">Contact with us</string>
+    <string name="wrong_email_or_password">خطأ في كلمو المرور أو البريد الإلكتروني</string>
+</resources>

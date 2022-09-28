@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.profile.ProfileFragment"
+    android:background="#FFFFFF">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:background="#FFFFFF"
+        android:elevation="5dp"
+        app:elevation="0dp">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:minHeight="?attr/actionBarSize"
+            app:title="@string/profile"
+            app:titleTextColor="#FFFFFF"
+            app:layout_scrollFlags="exitUntilCollapsed"
+            android:elevation="0dp"
+            android:background="@color/colorPrimary"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_below="@id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:visibility="visible"
+            android:id="@+id/logged_in_layout"
+            android:layout_below="@id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/_10sdp"
+                android:background="#FFFFFF">
+
+                <ImageView
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_90sdp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/_dots" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center">
+                <ImageView
+                    android:src="@drawable/_wave"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginEnd="@dimen/_5sdp"
+                    android:layout_marginRight="@dimen/_5sdp"/>
+                <TextView
+                    android:text="@string/hello"
+                    android:textSize="@dimen/_13sdp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#FFF"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/username"
+                android:text="@string/app_name"
+                android:textSize="@dimen/_16sdp"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#FFF"/>
+
+            <TextView
+                android:id="@+id/info"
+                android:text="@string/info"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#3D3D3D"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:drawableEnd="@drawable/chevron_right"
+                android:drawableRight="@drawable/chevron_right"
+                android:drawableStart="@drawable/_profile_account"
+                android:drawableLeft="@drawable/_profile_account"
+                android:drawablePadding="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/favorites"
+                android:text="@string/favorite"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#3D3D3D"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:drawableEnd="@drawable/chevron_right"
+                android:drawableRight="@drawable/chevron_right"
+                android:drawableStart="@drawable/_profile_favorites"
+                android:drawableLeft="@drawable/_profile_favorites"
+                android:drawablePadding="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/language"
+                android:text="@string/language"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#3D3D3D"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:drawableEnd="@drawable/chevron_right"
+                android:drawableRight="@drawable/chevron_right"
+                android:drawableStart="@drawable/_profile_language"
+                android:drawableLeft="@drawable/_profile_language"
+                android:drawablePadding="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/share"
+                android:text="@string/share_the_app"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#3D3D3D"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:drawableEnd="@drawable/chevron_right"
+                android:drawableRight="@drawable/chevron_right"
+                android:drawableStart="@drawable/_profile_share"
+                android:drawableLeft="@drawable/_profile_share"
+                android:drawablePadding="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/contacts"
+                android:text="@string/contact_with_us"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#3D3D3D"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:drawableEnd="@drawable/chevron_right"
+                android:drawableRight="@drawable/chevron_right"
+                android:drawableStart="@drawable/_profile_contacts"
+                android:drawableLeft="@drawable/_profile_contacts"
+                android:drawablePadding="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/policy"
+                android:text="@string/policy"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#3D3D3D"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:drawableEnd="@drawable/chevron_right"
+                android:drawableRight="@drawable/chevron_right"
+                android:drawableStart="@drawable/_profile_policy"
+                android:drawableLeft="@drawable/_profile_policy"
+                android:drawablePadding="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/conditions"
+                android:text="@string/conditions"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#3D3D3D"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:drawableEnd="@drawable/chevron_right"
+                android:drawableRight="@drawable/chevron_right"
+                android:drawableStart="@drawable/_profile_policy"
+                android:drawableLeft="@drawable/_profile_policy"
+                android:drawablePadding="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/about"
+                android:text="@string/about"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#3D3D3D"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:drawableEnd="@drawable/chevron_right"
+                android:drawableRight="@drawable/chevron_right"
+                android:drawableStart="@drawable/_profile_question"
+                android:drawableLeft="@drawable/_profile_question"
+                android:drawablePadding="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/logout"
+                android:text="@string/logout"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#3D3D3D"
+                android:background="#FFFFFF"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:drawableEnd="@drawable/chevron_right"
+                android:drawableRight="@drawable/chevron_right"
+                android:drawableStart="@drawable/_profile_key"
+                android:drawableLeft="@drawable/_profile_key"
+                android:drawablePadding="@dimen/_10sdp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

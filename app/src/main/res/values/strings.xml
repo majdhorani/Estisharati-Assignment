@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Tech Estisharati Assignment</string>
+
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait</string>
+
+    <string name="hello">Hello</string>
+    <string name="login">Login</string>
+    <string name="login_into_estisharati">Login into Estisharati</string>
+    <string name="please_login">Please login</string>
+    <string name="login_to_medicinemall">Login to medicine mall</string>
+    <string name="login_and_enjoy">Login and enjoy more than 200 books.</string>
+    <string name="create_and_enjoy">Create account and enjoy more than 200 product easily.</string>
+    <string name="logout">Logout</string>
+    <string name="signup">Sign up</string>
+    <string name="register">Register</string>
+    <string name="create_account">Create Account</string>
+    <string name="create_account_as">Create Account as:</string>
+    <string name="create_account_underline"><u>Create Account</u></string>
+    <string name="create_a_new_account">Create a new account</string>
+    <string name="continue_as_a_guest">continue as a guest</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="forgot_your_password">Forgot your password</string>
+    <string name="we_sent_activation_code_to">We sent activation code to</string>
+    <string name="please_confirm_your_code">Please confirm your code</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="set_your_new_password">Set your new password</string>
+    <string name="do_not_add_something_of_your_old_password">it is better not to contains something of your old password</string>
+    <string name="email">Email</string>
+    <string name="reset_password_underline"><u>Reset password</u></string>
+    <string name="reset_password">Reset password</string>
+
+
+    <string name="my_profile">Profile</string>
+    <string name="profile">Profile</string>
+    <string name="categories">Categories</string>
+    <string name="favorite">Favorites</string>
+    <string name="language">language</string>
+    <string name="arabic">Arabic</string>
+    <string name="english">English</string>
+    <string name="please_select_language">Please select language</string>
+    <string name="notifications">Notifications</string>
+    <string name="info">Info</string>
+    <string name="phone">Phone</string>
+
+
+
+    <string name="policy">Policy</string>
+    <string name="conditions">Conditions</string>
+    <string name="about">About</string>
+    <string name="accept_conditions">by creating account, you are accepting our</string>
+    <string name="policy_underline"><u>Policy</u></string>
+    <string name="conditions_underline"><u>Conditions</u></string>
+    <string name="and">and</string>
+
+
+
+    <string name="home">Home</string>
+    <string name="skip">Skip</string>
+    <string name="view_all">View all</string>
+    <string name="share_the_app">Share the app</string>
+    <string name="contact_with_us">Contact with us</string>
+    <string name="wrong_email_or_password">Wrong password or email</string>
+</resources>
